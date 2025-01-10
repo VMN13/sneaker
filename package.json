@@ -1,0 +1,73 @@
+{
+  "name": "card",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@1pay/react-1pay": "^1.0.1",
+    "@ashwamegh/react-link-preview": "^1.0.1",
+    "@chatscope/chat-ui-kit-react": "^2.0.3",
+    "@dhaiwat10/react-link-preview": "^1.15.0",
+    "@microlink/react": "^5.5.22",
+    "@microlink/react-json-view": "^1.24.0",
+    "@nlux/openai-react": "^2.17.1",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "cryptocmd": "^1.0.1",
+    "express": "^4.21.2",
+    "gsap": "^3.12.5",
+    "js-confetti": "^0.12.0",
+    "material-icons": "^1.13.12",
+    "nodemon": "^3.1.9",
+    "postscribe": "^2.0.8",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-bitcoin-payment-button": "^0.3.1",
+    "react-chatbot-kit": "^2.2.2",
+    "react-confetti": "^6.2.2",
+    "react-confetti-explosion": "^2.1.2",
+    "react-credit-cards": "^0.8.3",
+    "react-curved-text": "^3.0.1",
+    "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "react-medium-image-zoom": "^5.2.12",
+    "react-router-pagination": "^3.2.238",
+    "react-scripts": "5.0.1",
+    "react-switch": "^7.1.0",
+    "react-tooltip": "^5.28.0",
+    "source-map": "^0.7.4",
+    "split-text-js": "^1.0.3",
+    "yarn": "^1.22.22"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "react-router-dom": "^7.1.1",
+    "url-loader": "^4.1.1"
+  }
+}
