@@ -9,9 +9,9 @@ export default function Video() {
       controls={true}
       loop={true}
       muted={true}
-      autoplay={true}
+      autoPlay={true}
       playsInline={true}
-        preload={"auto"}
+       
       >
         <source 
           src={video} 
