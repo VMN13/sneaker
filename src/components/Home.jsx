@@ -31,6 +31,7 @@ export default function Home() {
         <Video />
       </Link>
     </Tooltip>
+    <Video />
   
 <div className='description'>
   <p className="welcome">
