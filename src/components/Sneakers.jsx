@@ -15,84 +15,134 @@ import Vutton from '../img/Vutton.jpg';
 import Custom from '../img/custom.jpg';
 import Chat from "../chatbot";
 
-
-
 export default function Sneakers() {
   return (
     <>
     <Header/>
     <Chat />
- 
     <h1 id="home">Sneakers</h1>
-   
     <section className='sneakerContainer'>
-    
-      
-  <Link
-   to="/SneakerNike">
-  <h3 className="write">Nike</h3>
-  
-    <img id='sneakerimg' src={air} alt="airmax"/>
+    <Link to="/SneakerNike">
+      <h3 className="write">
+        Nike
+      </h3>
+        <img 
+          id='sneakerimg' 
+          src={air} 
+          alt="airmax"/>
   </Link>
-  
-  
-
   <Link to="/sneakermain">
-  <h3 className="write">Jordan</h3>
-  <img id='sneakerimg' src={jordan} alt="airmax"/>
+    <h3 className="write">
+      Jordan
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={jordan} 
+        alt="airmax"/>
   </Link>
 
   <Link to="/Reebook">
-  <h3 className="write">Reebook</h3>
-  <img id='sneakerimg' src={reb} alt="reebok"/>
+    <h3 className="write">
+      Reebook
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={reb} 
+        alt="reebok"/>
   </Link>
   <Link to="/Adidas">
-  <h3 className="write">Adidas</h3>
-  <img id='sneakerimg' src={adidas} alt="adidas"/>
+  <h3 className="write">
+    Adidas
+  </h3>
+    <img 
+      id='sneakerimg' 
+      src={adidas} 
+      alt="adidas"/>
   </Link>
 
   <Link to="/Puma">
-  <h3 className="write">Puma</h3>
-  <img id='sneakerimg' src={puma} alt="airmax"/>
+    <h3 className="write">
+      Puma
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={puma} 
+        alt="airmax"/>
   </Link>
+
   <Link to="/Yeezy">
-  <h3 className="write">Yeezy</h3>
-  <img id='sneakerimg' src={yezzy} alt="airmax"/>
+    <h3 className="write">
+      Yeezy
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={yezzy} 
+        alt="airmax"/>
   </Link>
 
   <Link to="/convers">
-  <h3 className="write">Converse</h3>
-  <img id='sneakerimg' src={conv} alt="airmax"/>
+    <h3 className="write">
+      Converse
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={conv} 
+        alt="airmax"/>
   </Link> 
 
   <Link to="/Vans">
-  <h3 className="write">Vans</h3>
-  <img id='sneakerimg' src={vans} alt="airmax"/>
+    <h3 className="write">
+      Vans
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={vans} 
+        alt="airmax"/>
   </Link>
 
   <Link to="/Newbalance">
-  <h3 className="write">New Balance</h3>
-  <img id='sneakerimg' src={NewBalance} alt="airmax"/>
+    <h3 className="write">
+      New Balance
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={NewBalance} 
+        alt="airmax"/>
   </Link>
 
   <Link to="/Balenciaga">
-  <h3 className="write">Balenciaga</h3>
-  <img id='sneakerimg' src={Bel} alt="airmax"/>
+    <h3 className="write">
+      Balenciaga
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={Bel} 
+        alt="airmax"/>
   </Link>
 
   <Link to="/Louisvuitton">
-  <h3 className="write">Vutton</h3>
-  <img id='sneakerimg' src={Vutton} alt="airmax"/>
+    <h3 className="write">
+      Vutton
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={Vutton} 
+        alt="airmax"/>
   </Link>
 
   <Link to="/Custom">
-  <h3 className="write">Custom</h3>
-  <img id='sneakerimg' src={Custom} alt="airmax"/>
+    <h3 className="write">
+      Custom
+    </h3>
+      <img 
+        id='sneakerimg' 
+        src={Custom} 
+        alt="airmax"/>
   </Link>
-</section>
-
+  
+    </section>
 <Footer/>
-  </>
+    </>
 );
 };
 

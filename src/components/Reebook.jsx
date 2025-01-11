@@ -14,7 +14,8 @@ export default function Max() {
   <ImageMagnifier 
     imageUrl={Reb}/>
     <div className='description'>
-      <h2>Reebok
+      <h2>
+        Reebok
       </h2>
         <p>
         Reebok International Limited  is an American footwear and clothing brand that
@@ -27,18 +28,31 @@ export default function Max() {
         Authentic Brands Group in 2021. The company's global headquarters are 
         located in Boston, Massachusetts, in the Seaport District.
         </p>
-        <div className="cardbottons">
-        <Link className="headerlink"
-        to="/jordan"><button className="buttoncard" Link to="/Max">prev</button>
-      </Link>
-      <Link className="headerlink"
-        to="/Sneakers"><button className="buttoncard" Link to="/Max">buy</button>
-      </Link>
-      <Link className="headerlink"
-        to="/Adidas"><button className="buttoncard" Link to="/Max">next</button>
-      </Link>
+
+<div className="cardbottons">
+  <Link 
+    className="headerlink"
+    to="/jordan">
+      <button className="buttoncard" 
+        Link to="/Max">
+          prev
+      </button>
+  </Link>
+  <Link className="headerlink"
+        to="/Sneakers">
+      <button className="buttoncard" 
+        Link to="/Max">
+          buy
+        </button>
+  </Link>
+  <Link className="headerlink" to="/Adidas">
+    <button className="buttoncard" 
+      Link to="/Max">
+        next
+    </button>
+  </Link>
   </div>
-</div>
+    </div>
 </section>
 <Footer/>
     </div>

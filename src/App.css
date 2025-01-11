@@ -4,9 +4,6 @@ body {
   font-family: "Noto Sans", serif;
 }
 
-
-
-
 .Footer {
   display: flex;
   justify-content: space-around;
@@ -44,14 +41,14 @@ body {
 .headerlink {
   text-decoration: none;
   color:#f8f8f8;
-    padding: 5px;
-    display: flex;
-    align-content: space-around;
-    align-items: baseline;
-    border: solid 1px #f8f8f8;
-    border-radius: 20px;
-    border-width: 2px;
-    background-color: hsla(0, 0%, 0%, 0.5);
+  padding: 5px;
+  display: flex;
+  align-content: space-around;
+  align-items: baseline;
+  border: solid 1px #f8f8f8;
+  border-radius: 20px;
+  border-width: 2px;
+  background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .headerlink:hover {
@@ -136,7 +133,6 @@ img {
 
 .description {
   width: 600px;
- 
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -184,17 +180,32 @@ h2 {
 
 
 
-
 .img-magnifier-container {
   position: relative;
   height: 400px;
-  width: 300px;
+  width: 400px;
 }
 
 .magnifier-img {
   width: 400px;
   height: 400px;
 }
+
+.magnifier-img {
+  width: auto;
+  height: 400px;
+}
+
+.magnifier-image {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 12%;
+  margin-top: -403px;
+  margin-left: 21px;
+}
+
+
 
 :active.magnifier-img {
   filter: blur(2px);
@@ -238,7 +249,6 @@ h2 {
 .logo:hover {
   scale: 1.1;
   transition: 0.5s ease-in-out;
-
 }
 
 .social-media {
@@ -260,7 +270,6 @@ h2 {
   border-radius: 25% 10%;
   filter: drop-shadow(2px 2px 1px black);
 }
-
 
 .cardbottons {
   display: flex;
@@ -303,8 +312,6 @@ h2 {
   width: 200px;
 }
 
-
-
 .buttoncard:hover {
   background-color: #ffcf2383;
   color:#000000;
@@ -315,7 +322,6 @@ h2 {
   scale: 1.1;
   transition: 1.2s ease-in-out;
 }
-
 
 .sneakerContainer {
   display: flex;
@@ -337,7 +343,6 @@ h2 {
   background:url(airmax.png);
   transform: scale(1.1);
   transition: 0.2s ease-in-out;
-
   background: linear-gradient(
     0deg, 
     transparent, 
@@ -345,11 +350,13 @@ h2 {
     rgba(255, 8, 0, 0.3)
   );
   transform: rotate(-45deg);
-
 }
 
+
 #sneakerimg:hover {
+  background:url(airmax.png);
   transform: scale(1.1);
+  transition: 0.2s ease-in-out;
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
 }
 
@@ -400,7 +407,6 @@ h2 {
   text-align: center;
   font-family: "Noto Sans", serif;
   padding: auto;
-
   margin-top: 20px;
 }
 
@@ -839,7 +845,6 @@ h2 {
   border: solid 2px;
   cursor: pointer;
   border-color: #f1f1f1;
-  
 }
 
 .cardContainer {
@@ -859,7 +864,6 @@ h2 {
 .dobuleInput {
   display: flex;
   flex-direction: row;
-  
 }
 
 .inputField {
@@ -886,16 +890,16 @@ h2 {
 #size {
   margin-top: 8px;
   height: 130px;
-    margin-left: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: solid 1px gray;
-    border-radius: 20px;
-    justify-content: center;
-    padding: 10px;
-    align-items: center;
-    width: 550px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 1px gray;
+  border-radius: 20px;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  width: 550px;
 }
 
 
@@ -910,9 +914,7 @@ h2 {
   margin-top: 100px;
 }
 
-
 .star-rating-count {
-  
   font-size: 20px;
   margin-left: 10px;
   font-weight: 700;
@@ -925,23 +927,18 @@ h2 {
 }
 
 #exclamationMark {
-   font-size: 40px;
-   color: rgb(0, 0, 0);
+  font-size: 40px;
+  color: rgb(0, 0, 0);
 }
-
-
 
 #FaStar {
- 
   cursor: pointer;
 }
-
 
 :hover#FaStar {
   fill: rgb(100, 4, 4);
   cursor: pointer;
 }
-
 
 .custom-hr {
   margin-left: 20px;
@@ -977,7 +974,6 @@ h2 {
   margin-left: -30px;
 }
 
-
 .sizecard {
   font-size: 20px;
   background-color: white;
@@ -996,8 +992,6 @@ h2 {
   transition: 1.5s;
 }
 
-
-
 .sizeTable {
   display: flex;
   flex-direction: column;
@@ -1010,7 +1004,6 @@ h2 {
   font-family: "Noto Sans", serif;
   margin-top: 120px;
 }
-
 
 video:hover {
   transition: 1s;
@@ -1027,20 +1020,16 @@ video:hover {
     font-style: italic;
   }
 
-
   .logo:hover {
     box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
     scale: 5.1;
     transition: 0.5s;
-    
   }
 
   .Iname {
     margin-top: 30px;
     font-size: 22px;
   }
-
-
 
   #light {
     background-color: white;
@@ -1053,9 +1042,6 @@ video:hover {
   }
 
 
-
-
-
   .switch {
   display: flex;
   font-size: 20px;
@@ -1065,27 +1051,27 @@ video:hover {
   }
 
 
-  .switchContainer {
-    position: absolute;
+.switchContainer {
+  position: absolute;
   }
   
 
 
-  .des {
-    margin-top: -20px;
-    padding: 20px;
+.des {
+  margin-top: -20px;
+  padding: 20px;
   }
 
-  .buy {
-    height: 100px;
-    font-size: 20px;
-    background-color: white;
-   border-color: red;
-    cursor: grab;
-    border-radius: 20px;
-    align-items: center;
-    border: 1px solid red;
-    padding: 10px 20px 30px 20px;
+.buy {
+  height: 100px;
+  font-size: 20px;
+  background-color: white;
+  border-color: red;
+  cursor: grab;
+  border-radius: 20px;
+  align-items: center;
+  border: 1px solid red;
+  padding: 10px 20px 30px 20px;
   }
 
 .sizecard:hover {
@@ -1097,7 +1083,6 @@ video:hover {
 
 
 .Sneaker_Container {
- 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1243,6 +1228,48 @@ input:is(:-webkit-autofill, :autofill) {
   font-size: 30px;
 
 }
+
+
+
+.tooltip {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid rgb(255, 255, 255);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+
+.img-magnifier-container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+
+.magnifier-img {
+  width: 400px;
+  height: 400px;
+}
+
+.magnifier-img {
+  width: auto;
+  height: 400px;
+}
+
+:active.magnifier-img {
+  filter: blur(2px);
+-webkit-filter: blur(2px);
+-moz-filter: blur(2px);
+}
+
+
+
+
 
 
 

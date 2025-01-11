@@ -25,21 +25,19 @@ const createArray = length => [...Array(length)]
           onSelect={() => setSelectedStars(i + 1)}  />
       ))}
       </div>
-  <div className='stars'>
 
-      <p 
-        className='star-rating-count'>
-          <span id='selectStar'>
-          {selectedStars} 
-          </span>
-          <span></span> <span></span>
-        Stars out of <span></span>
+  <div className='stars'>
+    <p className='star-rating-count'>
+      <span id='selectStar'>
+        {selectedStars} 
+      </span>
+        <span></span> <span></span>
+          Stars out of <span></span>
         <span id='selectStar'>
           {totalStars}
           </span>
-        
-      </p>
-      </div>  
+    </p>
+  </div>  
     </div>
-)
+);
 };

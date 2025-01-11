@@ -14,7 +14,7 @@ return (
 <Chat />
 
 <h1 id="home">
-   Nike 
+    Nike 
   </h1> 
   <div className="Sneaker_Container">
     <div className='Sneaker_Box'>

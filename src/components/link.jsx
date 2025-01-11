@@ -7,24 +7,33 @@ export default function ViewSwitcher () {
 
   return (
     <>
-      <ViewSwitcherButton name="foo" currentViewName={viewName} setViewName={setViewName} />
-      <ViewSwitcherButton name="bar" currentViewName={viewName} setViewName={setViewName} />
-      <ViewSwitcherButton name="baz" currentViewName={viewName} setViewName={setViewName} />
-
-      <View name="foo" currentViewName={viewName}>
-       
-    <Link to='/sneakers'>Stasik</Link>
+      <ViewSwitcherButton 
+        name="foo" 
+        currentViewName={viewName} 
+        setViewName={setViewName} />
+      <ViewSwitcherButton 
+        name="bar" 
+        currentViewName={viewName} 
+        setViewName={setViewName} />
+      <ViewSwitcherButton 
+        name="baz" 
+        currentViewName={viewName} 
+        setViewName={setViewName} />
+      <View 
+        name="foo" 
+        currentViewName={viewName}> 
+      <Link to='/sneakers'>
+        Stasik
+      </Link>
       </View>
-
-      <View name="bar" currentViewName={viewName}>
-  
+      <View 
+        name="bar" 
+        currentViewName={viewName}>
       </View>
-      <View name="baz" currentViewName={viewName}>
-  
+      <View 
+        name="baz" 
+        currentViewName={viewName}>
       </View>
     </>
   );
-}
-
-
-  
+};

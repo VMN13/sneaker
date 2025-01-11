@@ -7,10 +7,6 @@ import Video from "./video";
 import Chat from "../chatbot";
 import Linked from "./link";
 
-
-
-
-
 export default function Home() {
   return (
     <div>
@@ -30,8 +26,9 @@ export default function Home() {
     <Tooltip
       className="tooltip"
       infotext="Welcome to the Sneaker SneakerShop page!">  
-   
-      <Link to="https://www.youtube.com/watch?v=cPAGwnzJpec"><Video /></Link>
+      <Link to="https://www.youtube.com/watch?v=cPAGwnzJpec">
+        <Video />
+      </Link>
     </Tooltip>
   
 <div className='description'>
@@ -50,7 +47,6 @@ export default function Home() {
 </div>
 </section>
 <Footer />
-
     </div>    
 );
 };

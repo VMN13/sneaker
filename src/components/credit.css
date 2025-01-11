@@ -7,9 +7,7 @@
   mask-size: 800%;
   -webkit-mask-position: 0;
   mask-position: 0;
-  
 }
-
 
 .rccs__card--unknown > div:hover {
   transition: mask-position 2s ease,-webkit-mask-position 2s ease;
@@ -37,9 +35,8 @@
   background-image: url(../forn.png);
 }
 
-
 .Sorted-card {
-display: flex;
+  display: flex;
   flex-direction: row;
 }
 

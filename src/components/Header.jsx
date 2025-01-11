@@ -1,10 +1,7 @@
-
 import { Link } from "react-router-dom";
 import svg from "../img/registration.svg";
 import home from "../img/home.svg";
 import step from "../img/step.svg";
-
-
 
 export default function Header() {
   

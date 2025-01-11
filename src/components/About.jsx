@@ -7,7 +7,6 @@ import Email from "../img/email.svg";
 import Password from "../img/password.svg";
 import Chat from "../chatbot";
 import React from "react";
-
 let renderCount = 0;
 
 export default function About() {
@@ -56,7 +55,7 @@ export default function About() {
   {...register("name", {
   required: 'This field is required',
 })}/>
-  </label>
+</label>
 
 <label
   className="label"
@@ -95,7 +94,6 @@ export default function About() {
     {...register('password', {
       required: true
     })}/>
-            
 </label>
 
 <div className="sub">

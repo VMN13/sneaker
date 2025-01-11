@@ -9,9 +9,9 @@ export default function Video() {
       controls={true}
       loop={true}
       autoPlay muted>
-      <source 
-        src={video} 
-        type="video/mp4" />
+        <source 
+          src={video} 
+          type="video/mp4" />
     </video>
   );
 }
