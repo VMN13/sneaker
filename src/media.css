@@ -10,6 +10,7 @@ body {
 
 body {
   font-family: "Noto Sans", serif;
+  overflow-x: hidden;
 }
 
 .Header {
@@ -60,7 +61,7 @@ body {
   padding: 10px;
   border: 1px solid grey;
   border-radius: 20px;
-  margin-left: 34px;
+  width: 35%;
 }
 
 #SneakerShop {
@@ -94,7 +95,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   font-family: "Noto Sans", serif;
-  margin-top: 680px;
+ margin-top: 250px;
 }
 
 .magnifier-img {
@@ -126,13 +127,19 @@ body {
   display: flex;
   position: absolute;
   justify-content: center;
-  margin-left: 90px;
-  width: 50%;
+  margin-left: 15%;
+  
 }
 
 .write {
   text-align: center;
   font-size: 30px;
+}
+
+.welcome {
+  font-size: 30px;
+  text-align: center;
+  /* margin-top: 100px; */
 }
 
 
@@ -181,9 +188,112 @@ body {
   filter: brightness(69%);
 -webkit-filter: brightness(69%);
 -moz-filter: brightness(69%);
+margin-top: 50px;
+}
 
+.social-media {
+  display: flex
+;
+  padding: 30px;
+  background-size: 30%;
+  margin-top: -20px;
 }
 
 
+.links {
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans", serif;
+  color: #000000;
+  /* border-radius: 20px; */
+  text-decoration: none;
+  margin-top: -21px;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+  font-family: "Noto Sans", serif;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: -45px;
+}
+
+.video {
+  width: 338px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.Sneaker_Box {
+  margin-top: 120px;
+  display: flex
+;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: 1.1s;
+}
+
+.Fix_img {
+  width: 313px;
+  height: 200px;
+  object-fit: cover;
+  border: none;
+}
+
+.form {
+  padding: 20px;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+input {
+ 
+    border-radius: 20px;
+    font-size: 20px;
+    height: 70px;
+    width: 300px;
+}
+
+
+.register {
+  z-index: 1;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.placeholder {
+  display: flex
+;
+  justify-content: start;
+  align-items: center;
+  color: #000000;
+  font-family: "Noto Sans", serif;
+  font-size: 20px;
+}
 
 }
