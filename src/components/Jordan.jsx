@@ -19,9 +19,13 @@ export default function Max() {
   <div className="App">
     <Header />
     <Chat />
-
+    <div className="sneakerDescription">
+    <h1 id="Phantom">
+    Air Jordan 12 Retro "Phantom"
+  </h1> 
+  </div>
 <section
-  className='container'>
+  className='containerSneaker'>
     <div className="con">
     <ImageMagnifier 
       imageUrl={jordan}/>
