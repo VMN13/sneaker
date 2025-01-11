@@ -4,6 +4,7 @@ import jordan from '../img/jordan.jpg';
 import ImageMagnifier from "./ImageMagnifier";
 import Header from "./Header";
 import svg from "../img/right.svg";
+import LeftSvg from "../img/left.svg";
 import Chat from "../chatbot";
 import Stars from "./Stars";
 import Credit from "./credit";
@@ -106,11 +107,11 @@ export default function Max() {
     className="headerlink"
     to="/Airmax">
       <button 
-        className="buttoncard"
+        className="buttoncardLeft"
         Link to="/Max">prev
           <img 
             className="svg"
-            src={svg}
+            src={LeftSvg}
             alt="" />
       </button>
   </Link>

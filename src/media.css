@@ -1,10 +1,13 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,89.5,100..900;1,89.5,100..900&display=swap');
 
 body {
   font-family: "Noto Sans", serif;
 }
 
-@media (max-width:990px) {
+@media (max-width:944px) {
 
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,89.5,100..900;1,89.5,100..900&display=swap');
 
@@ -26,7 +29,9 @@ html {
   border-radius: 20px;
   height: 200px;
   margin-top: 20px;
-  border-radius: 20px;  
+  border-radius: 20px; 
+  max-width: 318px;
+margin-left: 8px; 
 }
 
 .head {
@@ -34,7 +39,8 @@ html {
   flex-direction: column;
   justify-content: space-around;
   font-size: 30px;
-  margin-top: -30px;
+  margin-top: -35px;
+  
 }
 
 .headerlink {
@@ -44,7 +50,8 @@ html {
   display: flex
 ;
   border: solid 1px #f8f8f8;
-  border-radius: 20px;
+  border-radius: 10px;
+  cursor: pointer;
   border-width: 2px;
   background-color: hsla(0, 0%, 0%, 0.5);
   max-width: 100%;
@@ -55,6 +62,8 @@ html {
   align-content: flex-end;
   justify-content: center;
   padding-left: 40px;
+  border: none;
+  margin-top: 6px;
 }
 
 .description {
@@ -69,16 +78,17 @@ html {
 }
 
 #SneakerShop {
-  letter-spacing: 9px;
+  letter-spacing: 8px;
   background: none;
   color: white;
   font-size: 40px;
   padding-left: 15px;
   background-color: hsla(0, 0%, 0%, 0.5);
   fill-opacity: 10%;
-  border: solid 2px;
+  border-radius: 10px;
+  border: none;
   cursor: pointer;
-  border-color: #f1f1f1;
+ 
 }
 
 .chatbot {
@@ -139,7 +149,7 @@ html {
   display: flex;
   justify-content: center;
   margin-left: 0px;
- 
+  margin-top: 0px;
   width: 100%;
 } 
 
@@ -201,7 +211,24 @@ html {
 -webkit-filter: brightness(69%);
 -moz-filter: brightness(69%);
 margin-top: 50px;
+max-width: 318px;
+margin-left: 8px;
 }
+
+.logo:hover {
+  scale: 1.1;
+  transition: 0.5s ease-in-out;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 6px;
+}
+
 
 .social-media {
   display: flex
@@ -280,6 +307,13 @@ input {
     font-size: 20px;
     height: 70px;
     width: 300px;
+}
+
+
+.Sneaker_Box:hover {
+  scale: 2.1;
+  transition: 0.5s;
+ 
 }
 
 

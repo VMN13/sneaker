@@ -277,14 +277,31 @@ h2 {
 }
 
 .buttoncard {
-  font-size: 20px;
-  background-color: white;
-  color: black;
-  cursor: grab;
-  border-radius: 20px;
-  align-items:  center;
-  border:   1px solid   grey;
-  padding: 10px 20px 30px 20px;
+  display: flex;
+      font-size: 20px;
+      background-color: white;
+      color: black;
+      cursor: grab;
+      border-radius: 20px;
+      align-items: flex-start;
+      border: 1px solid grey;
+      padding: 10px 20px 30px 20px;
+      flex-direction: row;
+      justify-content: flex-start;
+}
+
+.buttoncardLeft {
+  display: flex;
+      flex-wrap: wrap;
+      flex-direction: row-reverse;
+      font-size: 20px;
+      background-color: white;
+      color: black;
+      cursor: grab;
+      border-radius: 20px;
+      align-items:  center;
+      border:   1px solid   grey;
+      padding: 10px 20px 30px 20px;
 }
 
 #buttoncard {

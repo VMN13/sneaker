@@ -6,11 +6,13 @@ export default function Video() {
       className="video"
       width="320"
       height="240"
-      controls={true}
+      controls={false}
       loop={true}
       muted={true}
       autoPlay={true}
       playsInline={true}
+      webkit-playsInline={false}
+       webkit-autoPlay={true}
        
       >
         <source 

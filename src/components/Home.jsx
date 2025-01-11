@@ -17,7 +17,7 @@ export default function Home() {
 </div>
 
 <Chat />
-<div className="home">
+<div className="homePage">
   <h1 id="home">
     Home Page
   </h1> 
@@ -31,7 +31,7 @@ export default function Home() {
         <Video />
       </Link>
     </Tooltip>
-    <Video />
+   
   
 <div className='description'>
   <p className="welcome">
