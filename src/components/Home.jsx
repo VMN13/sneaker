@@ -17,10 +17,11 @@ export default function Home() {
 </div>
 
 <Chat />
+<div className="home">
   <h1 id="home">
     Home Page
   </h1> 
-
+  </div>
 <section
   className='container'>
     <Tooltip

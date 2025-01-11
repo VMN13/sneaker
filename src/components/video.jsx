@@ -8,7 +8,11 @@ export default function Video() {
       height="240"
       controls={true}
       loop={true}
-      autoPlay muted>
+      muted={true}
+      autoplay={true}
+      playsInline={true}
+        preload={"auto"}
+      >
         <source 
           src={video} 
           type="video/mp4" />

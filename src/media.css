@@ -10,6 +10,10 @@ body {
 
 body {
   font-family: "Noto Sans", serif;
+
+}
+
+html {
   overflow-x: hidden;
 }
 
@@ -123,13 +127,21 @@ body {
   visibility: hidden;
 }
 
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+ 
+  width: 100%;
+}
+
 #home {
   display: flex;
-  position: absolute;
   justify-content: center;
-  margin-left: 15%;
-  
-}
+  margin-left: 0px;
+ 
+  width: 100%;
+} 
 
 .write {
   text-align: center;
