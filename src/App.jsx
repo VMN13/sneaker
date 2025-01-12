@@ -4,8 +4,8 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import NoPage from './components/NoPage';
 import Main from './components/main';
 import './App.css';
+
 import './media.css';
-import './index.css';
 import './congratulations.css';
 import About from './components/About';
 import Home from './components/Home';
@@ -27,6 +27,9 @@ import Congratulations from './components/congratulations';
 import Size from './components/size';
 import SneakerMain from './components/sneakermainJordan';
 import SneakerNike from './components/cardSneaker/SneakerNike';
+import SneakerReebook from './components/cardSneaker/SneakerReebook';
+import Snowfall from "./components/SnowFall";
+
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -37,6 +40,7 @@ function App() {
 
   return (
     <>
+    
     <ThemeContext.Provider
       value={{
         theme,
@@ -54,10 +58,12 @@ function App() {
           checked={theme === 'dark'} />
       </label>
       </div>
+      <Snowfall />
     <BrowserRouter>
     <Routes>
       <Route path='/size' element={<Size />} />
       <Route path='/sneakernike' element={<SneakerNike />} />
+      <Route path='/sneakerreebok' element={<SneakerReebook />} />
       <Route path='/sneakermain' element={<SneakerMain />} />
       <Route path='/congratulations' element={<Congratulations />} />
       <Route path='/credit' element={<Credit />} />

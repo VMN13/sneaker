@@ -41,7 +41,7 @@ export default function Sneakers() {
         alt="airmax"/>
   </Link>
 
-  <Link to="/Reebook">
+  <Link to="/sneakerreebok">
     <h3 className="write">
       Reebook
     </h3>

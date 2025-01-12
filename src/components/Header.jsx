@@ -27,6 +27,7 @@ export default function Header() {
       to="/Sneakers">
         Sneakers
     <img 
+      className="step"
       src={step} 
       alt="Sneakers"/>
     </Link>
@@ -36,6 +37,7 @@ export default function Header() {
   to="/Home">
     Home
   <img 
+  className="step"
     src={home}
     alt="Home"/>
 </Link>
@@ -45,6 +47,7 @@ export default function Header() {
   to="/About">
     Registration
       <img 
+      className="step"
         src={svg} 
         alt="Registration"/>
 </Link>

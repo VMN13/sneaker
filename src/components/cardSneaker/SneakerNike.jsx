@@ -3,10 +3,11 @@ import React from 'react';
 import {Link } from 'react-router-dom';
 import Footer from '../Footer';
 import Header from '../Header';
-import AirMax from '../../img/airmax.png';
+import AirMax from '../../img/AirMax.jpg';
+import Huarache from '../../img/Huarache.jpg';
 import Chat from '../../chatbot';
-
-
+import AirForce from '../../img/AirForce.png';
+import AirMid from '../../img/AirMid.jpg';
 export default function SneakerMain() {
 return (
 <>   
@@ -20,7 +21,7 @@ return (
     <div className='Sneaker_Box'>
       <div>
         <h2>
-          Nike / AirMax
+          Nike  "AirMax"
         </h2>
       </div>
         <div>
@@ -35,14 +36,14 @@ return (
       <div className='Sneaker_Box'>
       <div>
         <h2>
-          Air Jordan 12 Retro "Phantom"
+        Nike "Huarache"
         </h2>
       </div>
         <div>
           <Link to='/Jordan'>
             <img
               className='Fix_img'
-              src={AirMax} />
+              src={Huarache} />
           </Link>
         </div>
       </div>
@@ -50,14 +51,14 @@ return (
       <div className='Sneaker_Box'>
       <div>
         <h2>
-          Air Jordan 12 Retro "Phantom"
+         Nike "Air Force" LOW
         </h2>
       </div>
         <div>
           <Link to='/Jordan'>
             <img
               className='Fix_img'
-              src={AirMax} />
+              src={AirForce} />
           </Link>
         </div>
       </div>
@@ -65,32 +66,20 @@ return (
       <div className='Sneaker_Box'>
       <div className='Sneaker_Box_h2'>
         <h2 className='Sneaker_Box_h2'>
-          Air Jordan 12 Retro "Phantom"
+        Nike "Air Force" MID 
         </h2>
       </div>
         <div>
           <Link to='/Jordan'>
             <img
               className='Fix_img'
-              src={AirMax} />
+              src={AirMid} />
           </Link>
         </div>
       </div>
 
-      <div className='Sneaker_Box'>
-      <div>
-        <h2>
-          Air Jordan 12 Retro "Phantom"
-        </h2>
-      </div>
-        <div>
-          <Link to='/Jordan'>
-            <img
-              className='Fix_img'
-              src={AirMax} />
-          </Link>
-        </div>
-      </div>
+      
+     
     
 
   </div>

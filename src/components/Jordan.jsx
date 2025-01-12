@@ -33,6 +33,7 @@ export default function Max() {
         <div id="size">
           <div className="checkSize">
         <h3 id="Choice">Check <br /> your <br /> size:
+            
         </h3>
         <Link
           className="SizeRelative"
@@ -45,6 +46,7 @@ export default function Max() {
         <div className="size-btn">
         Сhoose your shoe size
 <div>
+  
   <button
     className="sizecard">8
   </button>
@@ -61,6 +63,7 @@ export default function Max() {
     10
   </button>
 </div>
+
 <div>
   <button className="sizecard ">
     11
@@ -75,6 +78,20 @@ export default function Max() {
     11
   </button>
   </div>
+  <div className="buyTwoContainer">
+<div className="buyTwoContainer">
+
+</div>
+      <Link Link to="/Credit">
+      <button
+      className="buyTwo" > B 
+      U 
+      Y 
+       
+    </button>
+    </Link>
+    
+</div>
   </div>
   <hr class="custom-hr"/>
   <div className="checkSize">

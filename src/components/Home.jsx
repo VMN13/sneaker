@@ -33,7 +33,7 @@ export default function Home() {
     </Tooltip>
    
   
-<div className='description'>
+<div className='descriptionHome'>
   <p className="welcome">
     Welcome to the Sneaker Shop sneaker page
     Here you can find a cool pair at a price that is affordable for your wallet.

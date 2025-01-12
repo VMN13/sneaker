@@ -4,6 +4,11 @@ body {
   font-family: "Noto Sans", serif;
 }
 
+#root {
+  overflow-x: visible;
+  scroll-behavior: auto;
+}
+
 .Footer {
   display: flex;
   justify-content: space-around;
@@ -27,7 +32,9 @@ body {
   border-radius: 20px;
   height: 200px;
   margin-top: 20px;
-  border-radius: 20px;  
+  border-radius: 20px; 
+  width: 100%;
+  max-width: 100%; 
 }
 
 .head {
@@ -1302,6 +1309,53 @@ input:is(:-webkit-autofill, :autofill) {
 -moz-filter: blur(2px);
 }
 
+
+.descriptionHome {
+  width: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid   grey;
+  border-radius: 20px;
+}
+
+.step {
+  background-color: white;
+  opacity: 100%;
+  border: solid 2px;
+  border-color: white;
+}
+
+
+.buyTwo {
+  display: none;
+  
+}
+
+.buyTwoContainer {
+  display: none;
+  
+}
+
+
+
+.Sorted-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardList {
+  display: flex
+;
+margin-right: -40px;
+}
+
+.dobuleInput {
+  display: flex
+;
+  flex-direction: row;
+}
 
 
 

@@ -1,15 +1,14 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import {Link } from 'react-router-dom';
-import Footer from './Footer';
-import Header from './Header';
-import Chat from '../chatbot';
-import Jordan from './Jordan';
-import Aura from '../img/Aura.jpg';
-import jordan from '../img/jordan.jpg';
-import Jumpman from '../img/jumpman.png';
-import Westbrok from '../img/Westbrook.jpg';
-import J23 from '../img/J23.jpg';
+import Footer from '../Footer';
+import Header from '../Header';
+import AirMax from '../../img/AirMax.jpg';
+import Huarache from '../../img/Huarache.jpg';
+import Chat from '../../chatbot';
+import AirForce from '../../img/AirForce.png';
+import AirMid from '../../img/AirMid.jpg';
+import InstaPump from '../../img/InstaPump.jpg';
 export default function SneakerMain() {
 return (
 <>   
@@ -17,21 +16,20 @@ return (
 <Chat />
 
 <h1 id="home">
-    Jordan
+    Reebook
   </h1> 
   <div className="Sneaker_Container">
     <div className='Sneaker_Box'>
       <div>
         <h2>
-      
-          Air Jordan "Jumpman"
+        reebok instapump
         </h2>
       </div>
         <div>
-          <Link to='/Jordan'>
+          <Link to='/AirMax'>
             <img
               className='Fix_img'
-              src={Jumpman} />
+              src={InstaPump} />
           </Link>
         </div>
       </div>
@@ -39,15 +37,14 @@ return (
       <div className='Sneaker_Box'>
       <div>
         <h2>
-        Jordan Westbrook One Take -39
-       
+        Nike "Huarache"
         </h2>
       </div>
         <div>
           <Link to='/Jordan'>
             <img
               className='Fix_img'
-              src={Westbrok} />
+              src={Huarache} />
           </Link>
         </div>
       </div>
@@ -55,30 +52,29 @@ return (
       <div className='Sneaker_Box'>
       <div>
         <h2>
-        
-        Air Jordan 12 Retro "Phantom"
+         Nike "Air Force" LOW
         </h2>
       </div>
         <div>
           <Link to='/Jordan'>
             <img
               className='Fix_img'
-              src={jordan} />
+              src={AirForce} />
           </Link>
         </div>
       </div>
 
       <div className='Sneaker_Box'>
-      <div>
-        <h2>
-        Air jordan J23 low black
+      <div className='Sneaker_Box_h2'>
+        <h2 className='Sneaker_Box_h2'>
+        Nike "Air Force" MID 
         </h2>
       </div>
         <div>
           <Link to='/Jordan'>
             <img
               className='Fix_img'
-              src={J23} />
+              src={AirMid} />
           </Link>
         </div>
       </div>

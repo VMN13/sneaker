@@ -9,7 +9,7 @@ import Maestro from "./card_logo/Maestro.png";
 import MasterCard from "./card_logo/MasterCard.png";
 import VisaElectron from "./card_logo/VisaElectron.png";
 import Cirrus from "./card_logo/Cirrus.png";
-
+import './creditMedia.css';
 import './credit.css';
 import SneakerMain from './cardSneaker/SneakerNike';
 
@@ -82,11 +82,14 @@ export default function Credit() {
           </button>
           </Link>
       </div>
+      <div className='Please'>
         <p>
           Please, enter the requested data to pay for the product.
         </p>
         </div>
+        </div>
 
+<div className='cardList'>
 <div className='rccs__card rccs__card--unknown'>
   <Cards 
     className='card'
@@ -99,9 +102,10 @@ export default function Credit() {
       /> 
 </div>
 </div>
-
+</div>
 <div className="form">
   <form>
+    <div className='AllInput'>
     <input 
       className='inputField'
       autoComplete="on"
@@ -152,6 +156,7 @@ export default function Credit() {
     onFocus={handleInputFocus} 
     required
     />
+  </div>
   </div>
   </form>
     
