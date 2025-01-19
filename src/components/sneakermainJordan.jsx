@@ -28,7 +28,7 @@ return (
         </h2>
       </div>
         <div>
-          <Link to='/Jordan'>
+          <Link to='/jumpman'>
             <img
               className='Fix_img'
               src={Jumpman} />
@@ -44,7 +44,7 @@ return (
         </h2>
       </div>
         <div>
-          <Link to='/Jordan'>
+          <Link to='/westbrook'>
             <img
               className='Fix_img'
               src={Westbrok} />
@@ -75,7 +75,7 @@ return (
         </h2>
       </div>
         <div>
-          <Link to='/Jordan'>
+          <Link to='/sneakerj23'>
             <img
               className='Fix_img'
               src={J23} />

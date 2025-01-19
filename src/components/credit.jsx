@@ -8,6 +8,7 @@ import Chatbot from '../chatbot';
 import Maestro from "./card_logo/Maestro.png";
 import MasterCard from "./card_logo/MasterCard.png";
 import VisaElectron from "./card_logo/VisaElectron.png";
+import Marble from "./card_logo/marble.jpg";
 import Cirrus from "./card_logo/Cirrus.png";
 import './creditMedia.css';
 import './credit.css';

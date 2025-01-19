@@ -11,11 +11,12 @@ export default function Congratulations() {
     <Header />
     <Confetti />
     <div className="back">
+     
       <h1 className="congratulation">
         Congratulation!
       </h1>
       <Link to ="/Sneakers">
-        <button>
+        <button className="send">
           Send a check to email and 
             <br/> 
           Back to Sneakers!

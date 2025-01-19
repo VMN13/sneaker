@@ -30,5 +30,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+  background-size: 100%;
   
+  border: solid gray 1px;
+  margin-top: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  margin-left: 900px;
+}
+
+.congratulation {
+  font-size: 200px;
+}
+
+.send {
+  height: 180px;
+  font-size: 20px;
+  border-radius: 300px;
+  cursor: pointer;
 }

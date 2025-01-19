@@ -60,7 +60,7 @@ export default function Sneakers() {
       alt="adidas"/>
   </Link>
 
-  <Link to="/Puma">
+  <Link to="/sneakerpuma">
     <h3 className="write">
       Puma
     </h3>
@@ -100,7 +100,7 @@ export default function Sneakers() {
         alt="airmax"/>
   </Link>
 
-  <Link to="/Newbalance">
+  <Link to="/sneakernewbalance">
     <h3 className="write">
       New Balance
     </h3>

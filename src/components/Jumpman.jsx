@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-import jordan from '../img/jordan.jpg';
+import Jumpman from '../img/JumpmanTwo.png';
 import ImageMagnifier from "./ImageMagnifier";
 import Header from "./Header";
 import svg from "../img/right.svg";
@@ -28,7 +28,7 @@ export default function Max() {
   className='containerSneaker'>
     <div className="con">
     <ImageMagnifier 
-      imageUrl={jordan}/>
+      imageUrl={Jumpman}/>
       <div>
         <div id="size">
           <div className="checkSize">
@@ -112,24 +112,20 @@ export default function Max() {
 </div>     
   <div className='description'> 
     <h2 className="Iname">
-      Air Jordan 12 Retro "Phantom"
+    Air Jordan "Jumpman 2021"
     </h2>
   <Stars />
     <p className="des">
-      Jordan Brings the Heat
-      Michael Jordan brought the literal heat in his 1996-1997 season, setting the stage for one of basketball’s 
-      most transformative moments. In game five of The Finals—Jordan’s famous “flu game”—he scored 38 points to go 
-      with seven rebounds and five assists against the Utah Jazz, all with a temperature of 103 degrees. His enduring drive 
-      ultimately helped lead his team to another title, serving as inspiration for the technology and construction of 
+    Nike Air Jordan Jumpman 2021 PF sneakers are a hit this season. The presented model is made in white. The sneakers are decorated with many stitched lines, as well as black inserts on the front and back. On the tongue is the brand's signature logo, which is made in red. The thickened sole with an Air insert allows you to get instant cushioning of the foot, and the rubberized sole gives good traction on the surface.
     </p>
 
 <div className="cardbottons">
   <Link 
     className="headerlink"
-    to="/Westbrook">
+    to="/sneakerj23">
       <button 
         className="buttoncardLeft"
-        Link to="/jordan">prev
+        Link to="/Max">prev
           <img 
             className="svg"
             src={LeftSvg}
@@ -139,7 +135,7 @@ export default function Max() {
 
 <Link 
   className="headerlink"
-  to="/sneakerj23">
+  to="/Westbrook">
     <button
       className="buttoncard" 
       Link to="/Max">

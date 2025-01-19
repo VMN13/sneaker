@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
-import jordan from '../img/jordan.jpg';
-import ImageMagnifier from "./ImageMagnifier";
-import Header from "./Header";
+import Footer from "../Footer";
+import jordan from './img/jordan.png';
+import ImageMagnifier from "../ImageMagnifier";
+import Header from "../Header";
 import svg from "../img/right.svg";
 import LeftSvg from "../img/left.svg";
 import Chat from "../chatbot";
 import Stars from "./Stars";
-import Credit from "./credit";
+import Credit from "../credit";
 import size from '../img/size.svg';
-import Curved from './Curved';
+import Curved from '../Curved';
 import Size from "./size";
 
 
@@ -126,10 +126,10 @@ export default function Max() {
 <div className="cardbottons">
   <Link 
     className="headerlink"
-    to="/Westbrook">
+    to="/Airmax">
       <button 
         className="buttoncardLeft"
-        Link to="/jordan">prev
+        Link to="/Max">prev
           <img 
             className="svg"
             src={LeftSvg}
@@ -139,7 +139,7 @@ export default function Max() {
 
 <Link 
   className="headerlink"
-  to="/sneakerj23">
+  to="/Reebook">
     <button
       className="buttoncard" 
       Link to="/Max">

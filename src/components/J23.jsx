@@ -11,7 +11,7 @@ import Credit from "./credit";
 import size from '../img/size.svg';
 import Curved from './Curved';
 import Size from "./size";
-
+import J23 from '../img/J23.jpg';
 
 export default function Max() {
   return (
@@ -21,14 +21,14 @@ export default function Max() {
     <Chat />
     <div className="sneakerDescription">
     <h1 id="Phantom">
-    Air Jordan 12 Retro "Phantom"
+    Air Jordan "J23 Low"
   </h1> 
   </div>
 <section
   className='containerSneaker'>
     <div className="con">
     <ImageMagnifier 
-      imageUrl={jordan}/>
+      imageUrl={J23}/>
       <div>
         <div id="size">
           <div className="checkSize">
@@ -112,24 +112,20 @@ export default function Max() {
 </div>     
   <div className='description'> 
     <h2 className="Iname">
-      Air Jordan 12 Retro "Phantom"
+    Air Jordan "J23 Low"
     </h2>
   <Stars />
     <p className="des">
-      Jordan Brings the Heat
-      Michael Jordan brought the literal heat in his 1996-1997 season, setting the stage for one of basketball’s 
-      most transformative moments. In game five of The Finals—Jordan’s famous “flu game”—he scored 38 points to go 
-      with seven rebounds and five assists against the Utah Jazz, all with a temperature of 103 degrees. His enduring drive 
-      ultimately helped lead his team to another title, serving as inspiration for the technology and construction of 
+    Step into the court with the iconic Air Jordan J23 Low 'White'. With its crisp white leather upper, perforated toe box, and signature Jumpman branding, this low-top sneaker combines timeless style with unbeatable comfort. The luxurious Phylon midsole absorbs shock for exceptional cushioning, while the lightweight rubber outsole provides durable traction on and off the court. Own a piece of basketball history with these legendary sneakers, perfect for both casual wear and game-day performance.
     </p>
 
 <div className="cardbottons">
   <Link 
     className="headerlink"
-    to="/Westbrook">
+    to="/jordan">
       <button 
         className="buttoncardLeft"
-        Link to="/jordan">prev
+        Link to="/Retro">prev
           <img 
             className="svg"
             src={LeftSvg}
@@ -139,7 +135,7 @@ export default function Max() {
 
 <Link 
   className="headerlink"
-  to="/sneakerj23">
+  to="/Jumpman">
     <button
       className="buttoncard" 
       Link to="/Max">

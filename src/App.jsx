@@ -12,6 +12,7 @@ import Home from './components/Home';
 import Sneakers from './components/Sneakers';
 import Max from './components/Max';
 import Jordan from './components/Jordan';
+import Jumpman from './components/Jumpman';
 import Reebook from './components/Reebook';
 import Adidas from './components/Adidas';
 import Puma from './components/Puma';
@@ -27,7 +28,11 @@ import Congratulations from './components/congratulations';
 import Size from './components/size';
 import SneakerMain from './components/sneakermainJordan';
 import SneakerNike from './components/cardSneaker/SneakerNike';
+import J23 from './components/J23';
 import SneakerReebook from './components/cardSneaker/SneakerReebook';
+import Westbrook from './components/Westbrook';
+import SneakerPuma from './components/cardSneaker/SneakerPuma';
+import SneakerNewBalance from './components/cardSneaker/newBalance';
 import Snowfall from "./components/SnowFall";
 
 export const ThemeContext = createContext(null);
@@ -63,8 +68,12 @@ function App() {
     <Routes>
       <Route path='/size' element={<Size />} />
       <Route path='/sneakernike' element={<SneakerNike />} />
+      <Route path='/westbrook' element={<Westbrook />} />
       <Route path='/sneakerreebok' element={<SneakerReebook />} />
+      <Route path='/sneakerj23' element={<J23 />} />
+      <Route path='/sneakerpuma' element={<SneakerPuma />} />
       <Route path='/sneakermain' element={<SneakerMain />} />
+      <Route path='/sneakernewbalance' element={<SneakerNewBalance />} />
       <Route path='/congratulations' element={<Congratulations />} />
       <Route path='/credit' element={<Credit />} />
       <Route path='/Custom' element={<Custom />} />
@@ -79,6 +88,7 @@ function App() {
       <Route path='/Adidas' element={<Adidas />} />
       <Route path='/Reebook' element={<Reebook />} />
       <Route path='/jordan' element={<Jordan />} />
+      <Route path='/jumpman' element={<Jumpman />} />
       <Route path='/sneakers' element={<Sneakers />} />
       <Route path="/home" element={<Home />} />
       <Route path="/" element={<Main />} />
